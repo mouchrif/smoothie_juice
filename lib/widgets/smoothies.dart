@@ -32,30 +32,26 @@ class Smoothies extends StatelessWidget {
           SizedBox(
             height: 16.0,
           ),
-          RichText(
-            text: TextSpan(
-              style: GoogleFonts.nunito(
-                color: kBlackColor,
+          Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              Text(
+                "Smoothie King ",
+                style: GoogleFonts.nunito(
+                  fontSize: 24.0,
+                  fontWeight: FontWeight.w900,
+                  letterSpacing: 1.2,
+                ),
               ),
-              children: [
-                TextSpan(
-                  text: "Smoothie King ",
-                  style: GoogleFonts.nunito(
-                    fontSize: 24.0,
-                    fontWeight: FontWeight.w900,
-                    letterSpacing: 1.2,
-                  ),
+              Text(
+                "Shakes",
+                style: GoogleFonts.nunito(
+                  fontSize: 22.0,
+                  fontWeight: FontWeight.w600,
+                  letterSpacing: 1.1,
                 ),
-                TextSpan(
-                  text: "Shakes",
-                  style: GoogleFonts.nunito(
-                    fontSize: 22.0,
-                    fontWeight: FontWeight.w600,
-                    letterSpacing: 1.1,
-                  ),
-                ),
-              ],
-            ),
+              ),
+            ],
           ),
           SizedBox(
             height: 16.0,
